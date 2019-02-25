@@ -139,7 +139,7 @@ var ctrmaInteractiveMap = function () {
     };
   };
 
-  var superBasicSlideshow = (function() {
+
     // Super Basic Slideshow
     var slideIndex = 1;
 
@@ -163,8 +163,6 @@ var ctrmaInteractiveMap = function () {
         x[slideIndex - 1].style.display = "block";
       }
     };
-  })();
-  superBasicSlideshow();
 
   // Next and Previous controls for slideshow
   var sliderItems = function () {
