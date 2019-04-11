@@ -333,13 +333,13 @@ h2 {
 		margin-top: 20px;
 }
 
-#description-box #didYouKnow figcaption {
+#description-box #didYouKnow {
   font-size: 14px;
   padding: 10px;
   color: #ffffff;
 }
 
-#description-box #didYouKnow figcaption span {
+#description-box #didYouKnow span {
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 700;
