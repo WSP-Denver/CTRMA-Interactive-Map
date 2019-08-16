@@ -84,6 +84,10 @@ h2 {
   fill: #0054a4;
   stroke: #0054a4;
 }
+.open>a>path.overide-construction {
+  fill: #f79421;
+  stroke: #f79421;
+}
 
 .instructions {
   font-size: 1em;
