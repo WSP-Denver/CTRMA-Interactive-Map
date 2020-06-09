@@ -130,7 +130,8 @@ const ctrmaInteractiveMap = function () {
     };
   }
 
-  const closeDescription = function () {
+  const closeDescription = function (event) {
+    event.preventDefault();
     const isOpen = descriptionBox.classList.contains('slide-in');
     let currentTollFocus = currentToll.querySelector('[aria-labelledby]')
     descriptionBox.blur();
@@ -187,6 +188,7 @@ const ctrmaInteractiveMap = function () {
   }
 
   const currentSlide = (dot) => {
+    dot.preventDefault();
     const currentDot = dot.target.getAttribute('data-slide-number')
     showSlides(slideIndex = currentDot);
     updatePagination(slideIndex = currentDot);
@@ -239,7 +241,6 @@ const ctrmaInteractiveMap = function () {
   }
 
   const clickHandler = (event) => {
-    event.preventDefault();
 
     if (event.target.classList.contains('prev')) {
       advanceSlides(-1)
