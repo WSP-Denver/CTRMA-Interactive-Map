@@ -424,6 +424,7 @@ h2 {
   width: 30px;
   height: 40px;
   margin-top: -20px;
+  padding:0;
   color: white;
   font-weight: bold;
   font-size: 1.125rem;
@@ -433,6 +434,9 @@ h2 {
   background-color: rgba(0, 0, 0, 0.4);
   outline: initial;
   z-index: 11;
+}
+.slideshow-container .slideshow-button:before {
+  background:none;
 }
 .slideshow-container .slideshow-button:focus {
   outline: solid;
@@ -463,6 +467,7 @@ h2 {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  padding:0;
 }
 .slideshow-container .slideshow-pagination-dot:focus {
   outline: solid;
